@@ -1,0 +1,109 @@
+Lab 2:30 to 4 and 4:30 to 6 PM
+
+Agenda for lab :
+
+1. Gather information/requirements from your clients.
+
+2. Read about the models . Identify which model will fit your project and why? 
+
+3. Read about the following
+•Use Case diagrams
+•Sequence Diagrams
+•Activity Diagrams
+•ER diagrams
+•class diagrams 
+(And prepare the same for your projects)
+
+Download and install StartUML and start using it for creating your diagrams ( In case, if you are familiar with any of the other tool feel free to use it)
+
+
+------------------------------------------------------------------------------------------------------------
+
+vehicle Insurance site.
+
+report - intro , discription,system alalysis(optional),usecase dia,class dia(bin),activity dia,sequence dia,data modeling(awaiting).
+
+attributes:
+
+customer reg record
+driving licence
+changing addr.
+tax collection
+vehicle tranfer
+
+
+manage :
+payment 
+period
+vehicle details (2,4 wheeler)- company,module 
+customer personal details
+insurance specification
+
+admin :
+(to  access )
+ add, delete, modify,records and search for old records
+
+ 3. mail interface 
+4. UI mobile.
+
+SRS req. -----------------------------------------------------------------
+project : 31 july (due date)
+SRS : 10 july (due date)
+
+chap 1.
+Intro:
+DESCRIPTION:
+
+cha2 : NO
+chrp 3: optional
+chap 4 : all dia (5 No.'s- ER,sequence,class,usedcase,activity)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

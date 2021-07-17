@@ -1,0 +1,12 @@
+
+Requirement by  Rohan Sir dtd-06/07/2021:
+
+1. password should be accepted as encrypted.(Hashing)
+2.mail to customer as policy brought
+3.UI response : android ,IOS, windows
+4.DB field validation: like field is mandetory
+5.
+
+use : 
+1.adavance CSS: display flex
+2.table creation by HTML

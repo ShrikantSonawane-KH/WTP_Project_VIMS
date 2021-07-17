@@ -1,0 +1,20 @@
+
+.Car{
+    color: wheat;
+}
+.body{
+    background-image: url("back5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formFormat{
+    font-size:20px;
+    color:wheat;
+}
+.menu{
+    color:wheat;
+    color: "#000000";
+    opacity: 0.6;
+    background-color: black;
+    height: 30px;
+}
