@@ -1,0 +1,43 @@
+.car-ins{
+    background-color: blue;
+    font-size: x-large;
+    padding: 5px;
+    background-size: 100%;    
+    color: white;
+}
+
+.logo{
+    height:90%;
+    width: 40%;
+    padding: 0%;
+    margin-bottom: 0 !important;
+}
+.Back1{
+    background-image: url("back5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.formFormat{
+    font-size:20px;
+    color:wheat;
+}
+.menu{
+    color:wheat;
+    color: "#000000";
+    opacity: 0.6;
+    background-color: black;
+    height: 30px;
+}
+.navbar{
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    }
+    
+
+
+
+
+
+
