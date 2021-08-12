@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        VIMS1
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="SecondPage.js"></script>
+    <script src="validation1.js"></script>
+
+    <link rel="stylesheet" href="VIMSSupport.css"/>
+    <link rel="stylesheet" href="CustomerSupport.css"/>
+    <link rel="stylesheet" href="boxes.css"/>
+    <style>
+        #i1{
+           font-size: 35px;
+           padding-top: 20%;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           color: #0073e6;
+        }    
+    </style>
+    <script>
+        $(document).ready(function(){
+        $("#btn1").click(function(){
+        $('#sno').hide();
+        $('#rno').hide();
+          });
+        });      
+    </script>
+</head>
+
+<body  >
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-6">
+                <img src= "logoF.PNG" class="logo"/>
+                <!-- <b id="i1">Alive Insurance</b> -->
+              </div>             
+              
+              <!-- nav -->
+              <div class="col-6">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="file:///c:/Shrikant_CDAC/LAB/Model_1_COM3/Model_3_SEC/SE-PROJECT/Customer.html">NEW CAR INSURANCE</a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link active" href="file:///c:/Shrikant_CDAC/LAB/Model_1_COM3/Model_3_SEC/SE-PROJECT/AboutUS.html">ABOUT US</a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link active" href="#contact">CONTACT US</a>
+                          </li>
+                          <li class="nav-item active">
+                            <a class="nav-link active" href="#doc" >DOCUMENTS</a>
+                          </li>
+                        </ul>
+                        <!-- <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> -->
+                      </div>
+                  </nav>                
+              </div>
+
+            <!-- body -->
+            <div class="car-ins" ><strong>Car Insurance </strong></div>
+                    <h1 style=color:#006080;> <strong>Buy Car Insurance Online <br/>
+                      Discover Amazing Savings</strong></h1>
+
+                <div class="Back1">
+
+                  <!-- FORM -->
+
+         <form action="file:///c:/Shrikant_CDAC/LAB/Model_1_COM3/Model_3_SEC/SE-PROJECT/Customer.html" class="formFormat" onsubmit="return frontPagevalidation(false)"> <br/><br/>
+               What's your car registration number?*<br/><br/>
+                <input type ="text" id="pno" maxlenth= "4" placeholder ="Ex.MH17"/>
+                <input type ="text" id="sno" placeholder = "Ex. HA" size= "7"/>
+                <input type ="text" id="rno" placeholder = "Ex.5361" size= "7"/><br/>
+                          </br>
+                         <input id="btn1" type="button" style="width: 5%;height: 0.1%;" value="click"/> if you don't have registration number!<br/>
+                          </br><br/>
+                        
+                          Enter Mobile Number:
+                          <input type="text" id="mno"/></br>
+   
+                          </br><br/>
+                          <!-- buttons -->                      
+                          <button type="submit" class="btn btn-primary homebuttons" >submit</button>
+                          <a href="file:///c:/Shrikant_CDAC/LAB/Model_1_COM3/Model_3_SEC/SE-PROJECT/Customer2.html?city=Shrirampur&validity=.m&Brand=maruti&Model=mb53"
+                          <button type="button" class="btn btn-success homebuttons" onclick="hidden()">Proceed</button></a>
+                          <button type="reset" class="btn btn-danger homebuttons" >reset</button> <br/><br/><br/><br/>
+                      </b>
+                  </div>
+              </form>
+            </div> 
+<section id="facilities">
+  <div class="container">
+        <div class="title">
+          <h1>Like airbags, we deploy instantly to keep you safe.</h1>
+          <p>Backed by our powerful network and technology.</p>
+        </div>
+    <div class="row">
+          <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="boximg1.jpg" class="card-img-top"> 
+                    <div class="card-body">
+                        <h5 class="card-title">VALET CARE</h5>
+                        <p class="card-text">24x7 emergency assistance and priority cashless service from Trusted repair shops.
+                          all policy details, claim processes and other requests.
+
+                        </p>
+                        <a href="Valet-Care.pdf">See Valet Care Services</a>
+                    </div>
+                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+                <img src="boximg2.jpeg" class="card-img-top"> 
+                <div class="card-body">
+                    <h5 class="card-title">100% SIMPLIFIED CLAIMS</h5>
+                    <p class="card-text">We provide multiple, hassle-free ways to reach out to us for a claim.We fast-track claims in less than 5 days.We promises to provide our best services.</p>
+                    <a href="file:///c:/Shrikant_CDAC/LAB/Model_1_COM3/Model_3_SEC/SE-PROJECT/claim.html">Our Claims Service Claims Procedure Claims Form and policies</a>
+                </div>
+            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center">
+            <img src="boximg3.jpg" class="card-img-top"> 
+            <div class="card-body">
+                <h5 class="card-title">OUR CASHLESS GARAGE NETWORK</h5>
+                <p class="card-text">Our trusted garage network across India will provide cashless repairs and priority service to you as Customer.</p>
+                <a href="#">View our Garage Network</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5">
+
+  <div style="background-color: #21d192;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h2 class="mb-0"> <strong>  We secure you like a seatbelt! </strong></h2>
+        </div>
+
+          </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Policy terms and conditions</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          We request you to carefully read and understand the Terms and Conditions, before you buy the Policy. All claims are processed strictly according to it. Please speak or chat with our Customer Support Team, if you need any clarification.
+        </p>
+
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Products</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a class="dark-grey-text" href="#!">Car Insurance</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Bike Insurance</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="file:///c:/Shrikant_CDAC/LAB/Model_1_COM3/Model_3_SEC/SE-PROJECT/VIMS1.html">Cummercial Vehicle Insurance</a>
+        </p>
+      </div>
+  
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 id="doc" class="text-uppercase font-weight-bold">Documents</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a class="dark-grey-text" href="car-shield(1).pdf">Car Shield</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="Royal - Standard-form-for-liability-online-policy.pdf">Only policies</a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="Standalone-Motor-Own-Damage-Policy-Private-Car-Final.pdf"> Damage policies </a>
+        </p>
+        <p>
+          <a class="dark-grey-text" href="#!">Help</a>
+        </p>
+      </div>
+    
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" id="contact">Contacts</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> Mumbai, Kharghar, KH</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> alive@Insurance.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 044 4298 4541</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 044 4298 4542</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-copyright text-center text-black-50 py-3">© 2021 Copyright:
+    <a class="dark-grey-text" href="file:///c:/Shrikant_CDAC/LAB/Model_1_COM3/Model_3_SEC/SE-PROJECT/VIMS1.html"> AliveInsurace.com</a>
+  </div>
+</footer>
+  </body>
+</html>
